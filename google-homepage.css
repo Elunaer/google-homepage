@@ -1,0 +1,72 @@
+body, a, p {
+  font-family: arial,sans-serif;
+}
+
+body {
+  max-width: 100%;
+  text-align: center;
+}
+
+  #search-bar {
+  border-radius: 50px;
+  display: inline-block;
+  margin: 25px;
+  padding: 10px;
+  width: 500px;
+}
+
+footer {
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+a {
+  padding-left: 25px;
+  text-decoration: none;
+}
+
+#top-right-nav {
+  float: right;
+}
+
+#bottom-right-nav {
+  float: right;
+  
+}
+
+#search {
+  align-items: center;
+  display: inline-block;
+}
+
+#google-logo {
+  border: 50px 50px 50px 50px;
+  padding: 50px 50px 50px 50px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+#search {
+  display: inline-block
+}
+
+.submit {
+  padding: 10px;
+  color: lightgrey;
+  border-radius: 1px;
+  border-color: white;
+  color: slategray;
+}
+
+#bottom-left-nav, #top-left-nav {
+  float: left;
+}
